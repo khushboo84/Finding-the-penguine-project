@@ -1,0 +1,89 @@
+body {
+    background-color: #6194f3;
+}
+
+#gameholder {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    width: 600px;
+    height: 150px;
+    background-image:url('../images/penguin_title.png');
+}
+
+#score {
+    width: 150px;
+    height: 40px;
+    position: absolute; 
+    left: 75%;
+    border: 3px groove darkslategrey;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #121316;
+    text-shadow: 2px 2px lightgrey;
+    background-color: #595d64;
+}
+
+
+#penguin0, #penguin1, #penguin2, #penguin3, #penguin4, #penguin5, #penguin6, #penguin7, #penguin8 {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#penguin0:hover {
+    background-image:url('../images/mound_1_hover.png');
+    cursor: pointer;
+}
+
+#penguin1:hover {
+    background-image:url('../images/mound_2_hover.png');
+    cursor: pointer;
+}
+
+
+#penguin2:hover {
+    background-image:url('../images/mound_3_hover.png');
+    cursor: pointer;
+}
+
+
+#penguin3:hover {
+    background-image:url('../images/mound_4_hover.png');
+    cursor: pointer;
+}
+
+
+#penguin4:hover {
+    background-image:url('../images/mound_5_hover.png');
+    cursor: pointer;
+}
+
+
+#penguin5:hover {
+    background-image:url('../images/mound_6_hover.png');
+    cursor: pointer;
+}
+
+
+#penguin6:hover {
+    background-image:url('../images/mound_7_hover.png');
+    cursor: pointer;
+}
+
+#penguin7:hover {
+    background-image:url('../images/mound_8_hover.png');
+    cursor: pointer;
+}
+
+#penguin8:hover {
+    background-image:url('../images/mound_9_hover.png');
+    cursor: pointer;
+}
+
+

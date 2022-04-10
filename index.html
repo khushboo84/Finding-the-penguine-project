@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Find the Penguins</title>
+        <meta charset="utf-8">
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <div id="gameholder">
+            <div id="title">
+            </div> 
+            <audio id = "PenguinAudio">
+                <source src="audio/penguin.wav" type="audio/wav">
+            </audio>
+            <audio id="YetiAudio">
+                <source src ="audio/yeti.wav" type="audio/wav">
+            </audio>
+            <div id="images"> 
+            <img name="img" id="penguin0" src="images/mound_1.png" onclick="displayPenguin(0)" ></img>
+                <img name="img" id="penguin1" src="images/mound_2.png" onclick="displayPenguin(1)"></img>
+                <img name="img" id="penguin2" src="images/mound_3.png" onclick="displayPenguin(2)"></img>
+                <img name="img" id="penguin3" src="images/mound_4.png" onclick="displayPenguin(3)" ></img>
+                <img name="img" id="penguin4" src="images/mound_5.png" onclick="displayPenguin(4)" ></img>
+                <img name="img" id="penguin5" src="images/mound_6.png" onclick="displayPenguin(5)" ></img>
+                <img name="img" id="penguin6" src="images/mound_7.png" onclick="displayPenguin(6)" ></img>
+                <img name="img" id="penguin7" src="images/mound_8.png" onclick="displayPenguin(7)" ></img>
+                <img name="img" id="penguin8" src="images/mound_9.png" onclick="displayPenguin(8)"></img>
+            </div> 
+            <div id ="score"></div>
+        </div> 
+    <script> 
+        shuffle();
+       
+    </script>    
+    </body>
+</html>
